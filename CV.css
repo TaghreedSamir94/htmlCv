@@ -1,0 +1,281 @@
+
+* {
+    box-sizing: border-box;
+    
+
+  }
+.Cv{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(246, 246, 241);
+}
+
+.side_info{
+    img{
+        width: 250px;
+        border-radius: 50%;
+        margin-left: 32.5px;
+        margin-top: 30px;
+    }
+    h1{
+        font-style:unset;
+        font-size: xx-large;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+           
+    }
+    .about{
+        margin-left:1%;
+        margin-top: 10%;
+        font-size: medium;
+        text-align: center;
+    }
+    .Contact{
+        width: 95%;
+        height: 4.65%;
+        background-color: rgb(208, 199, 181);
+        margin-left: 3.1%;
+        margin-top: 6%;
+        padding-left: 4%;
+        border-style: inset;
+        border-color: #C99F83;
+        h3 {
+            color: rgb(19, 19, 19);
+            font-size: x-large;
+        }
+    
+    }
+    .linkedin{
+        margin-left: 18%;
+        font-size: larger;
+        
+    }
+    .git{
+        margin-left: 18%;
+        font-size: larger;    
+    }
+    .mail{
+        margin-left: 18%;
+        font-size: larger;    
+    }
+    .phone{
+        margin-left: 18%;
+        font-size: larger;    
+    }
+    .location{
+        margin-left: 18%;
+        font-size: larger;    
+    }
+
+    .lang{
+            width: 95%;
+            height: 4.65%;
+            background-color: rgb(208, 199, 181);
+            margin-left: 3.1%;
+            margin-top: 4%;
+            padding-left: 4%;
+            border-style: inset;
+            border-color: #C99F83;
+            h3 {
+                color: rgb(19, 19, 19);
+                font-size: x-large;
+            }
+    }
+    .list_lang{
+        margin-left: 12%;
+        list-style: disc;
+        margin-bottom: 30;
+        font-size: x-large;
+    }
+
+    .Ref{
+        width: 95%;
+        height: 4.65%;
+        background-color: rgb(208, 199, 181);
+        margin-left: 3.1%;
+        margin-top: 4%;
+        padding-left: 4%;
+        border-style: inset;
+        border-color: #C99F83;
+        h3 {
+            color: rgb(19, 19, 19);
+            font-size: x-large;
+        }
+
+     }
+    .content_icon{
+        margin-left: 6%;
+        font-weight: bolder;
+        font-size: larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .content_info{
+        margin-left:10%;
+        margin-top: .5%;
+        font-size: large;
+
+    }
+   
+
+
+    flex: 15%;
+    background-color:#C99F83;
+    
+    margin-left: 20px;
+    border-style:solid;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    border-color:rgb(228, 228, 204);
+    
+}
+.main_info{
+    flex: 71%;
+    background-color: rgb(246, 246, 241);
+    padding: 20px;
+    
+    border-color: rgb(228, 228, 204);
+    
+.education_head{
+    width: 95%;
+    height:5%;
+    background-color:rgb(208, 199, 181) ;
+        margin-left: 1%;
+        padding-bottom: 6%;
+        padding-left: 1%;
+        border-style: inset;
+        border-color: rgb(246, 246, 241);
+        h2{
+            color:rgb(19, 19, 19);
+        } 
+}
+.education ,.work , .cert , .skill{
+    h4{
+        color: rgb(18, 18, 18);
+    }
+    p{
+        color: rgb(18, 18, 18)
+    }
+    .content_icon{
+        margin-left: 2%;
+        font-weight: bolder;
+        font-size: larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .content_info{
+        margin-left: 5%;
+        margin-top: .5%;
+        font-size: large;
+
+    }
+    .date{
+        float :right;
+        margin-right: 45%;
+        font-weight: normal;
+    }
+   .date2{
+    float :right;
+        margin-right: 22%;
+        font-weight: normal;
+   }
+   .date3{
+    float :right;
+    margin-right: 6%;
+    font-weight: normal;
+   }
+  .seprate_skill{
+    list-style-type: disc;
+    column-count: 2;
+    column-gap:5px;
+    font-size: large;
+    
+
+   }
+   .bar1{
+    width: 30%; 
+    background-color: rgb(198, 195, 195);
+    margin-bottom: 2.5%
+   }
+   .bar2{
+    width: 95%;
+    padding-top: 3%;
+    padding-bottom:2%;
+    background-color:#C99F83;
+   }
+   .bar3{
+    width: 78%;
+    padding-top: 3%;
+    padding-bottom:2%;
+    background-color:#C99F83;
+   }
+   .bar4{
+    width: 60%;
+    padding-top: 3%;
+    padding-bottom:2%;
+    background-color:#C99F83;
+   }
+   .bar5{
+    width: 88%;
+    padding-top: 3%;
+    padding-bottom:2%;
+    background-color:#C99F83;
+   }
+   .bar6{
+    width: 68%;
+    padding-top: 3%;
+    padding-bottom:2%;
+    background-color:#C99F83;
+   }
+   .bar7{
+    width: 75%;
+    padding-top: 3%;
+    padding-bottom:2%;
+    background-color:#C99F83;
+   }
+  
+}
+.work_head{
+    width: 95%;
+    height:5%;
+    margin-top: 4%;
+    background-color:rgb(208, 199, 181) ;
+        margin-left: 1%;
+        padding-left: 1%;
+        border-style: inset;
+        border-color: rgb(246, 246, 241);
+        h2{
+            color:rgb(19, 19, 19);
+        } 
+}
+
+.cert_head{
+    width: 95%;
+    height:5%;
+    margin-top: 4%;
+    background-color:rgb(208, 199, 181) ;
+        margin-left: 1%;
+        padding-left: 1%;
+        border-style: inset;
+        border-color: rgb(246, 246, 241);
+        h2{
+            color:rgb(19, 19, 19);
+        } 
+
+}
+
+.Skills_head{
+    width: 95%;
+    height:5%;
+    margin-top: 4%;
+    background-color:rgb(208, 199, 181) ;
+        margin-left: 1%;
+        padding-left: 1%;
+        border-style: inset;
+        border-color: rgb(246, 246, 241);
+        h2{
+            color:rgb(19, 19, 19);
+        } 
+}
+
+}
